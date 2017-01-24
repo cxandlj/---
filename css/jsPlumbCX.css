@@ -1,0 +1,88 @@
+﻿.mainJsPlumbCX{
+	background-color:#e5eff8;
+	border:1px solid #a2adb8;
+	
+}
+.mainJsPlumbCX .topDiv{
+	background-color:#e5eff8;width:100%;height:80px;border-bottom:1px solid #a2adb8;padding-top:10px;
+}
+
+.aa{
+	font:14px '微软雅黑';
+}
+
+.node{	
+	font:14px '微软雅黑';
+}
+
+.mainJsPlumbCX .topDiv .start{
+	margin-top:5px;float:right;margin-right:30px;
+	width:50px;height:50px;
+	background-image:url(../img/start.png);
+}
+
+.mainJsPlumbCX .topDiv .start:hover{
+	background-image:url(../img/start_hover.png);
+}
+
+.mainJsPlumbCX .topDiv .action{
+	width:100px;height:60px;float:right;margin-right:30px;
+	background-image:url(../img/action.png);
+    display:table;
+}
+
+.mainJsPlumbCX .topDiv .action:hover{
+	background-image:url(../img/action_hover.png);
+}
+
+
+.txt{
+	vertical-align:middle;   
+	text-align:center;	
+	display:table-cell;      
+	width:95px;    
+}
+
+.mainJsPlumbCX .topDiv .condition{
+	width:140px;height:50px;float:right;margin-right:30px;margin-top:5px;
+	background-image:url(../img/condition.png);
+    display:table;
+	
+}
+
+.mainJsPlumbCX .topDiv .condition:hover{
+	background-image:url(../img/condition_hover.png);
+}
+
+.mainJsPlumbCX .topDiv .end{
+	margin-top:5px;
+	width:50px;height:50px;float:right;margin-right:30px;
+	background-image:url(../img/end.png);
+}
+.mainJsPlumbCX .topDiv .end:hover{
+	background-image:url(../img/end_hover.png);
+}
+
+
+.mainJsPlumbCX .centerDiv {
+	margin:5px;border:1px solid #a2adb8; 
+	background:url(../img/center_bg.png);
+}
+
+.mainJsPlumbCX .centerDiv .startModel{
+	position:absolute;width:50px;height:50px;background-image:url(../img/start.png);
+}
+
+.mainJsPlumbCX .centerDiv .endModel{
+	position:absolute;width:50px;height:50px;background-image:url(../img/end.png);
+}
+
+.mainJsPlumbCX .centerDiv .actionModel{
+	position:absolute;width:100px;height:60px;background-image:url(../img/action.png);
+    display:table;
+}
+
+.mainJsPlumbCX .centerDiv .conditionModel{
+	position:absolute;width:140px;height:50px;background-image:url(../img/condition.png);
+    display:table;
+}
